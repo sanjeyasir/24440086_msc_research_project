@@ -1,0 +1,379 @@
+DETAILED MSc RESEARCH PROJECT TIMELINE Project period: 1 April 2026 – 15
+February 2027 Working plan: 4 hours per weekday (Monday–Friday) and 6.5
+hours per weekend day (Saturday–Sunday). A full seven-day week therefore
+represents 33 planned hours.
+
+PROJECT WORKING PATTERN Monday–Friday: 4 hours per day Saturday–Sunday:
+6.5 hours per day The final period, 10–15 February 2027, is a six-day
+partial week (Wednesday–Monday). Planned hours: 45 full weeks × 33 hours
+= 1,485 hours; final six days = 29 hours; total = 1,514 planned hours.
+These are planned allocations, not a record of hours already completed.
+
+WEEK-BY-WEEK PLAN
+
+WEEK 1: 01 Apr 2026 – 07 Apr 2026 Phase: Research foundation and
+literature review Define the research problem, aims, objectives and
+research questions; review CMOS switching, transient supply current,
+electromagnetic emissions, EM side-channel analysis and relevant
+measurement techniques; identify modelling assumptions and research
+gaps; establish the literature matrix and initial methodology.
+
+WEEK 2: 08 Apr 2026 – 14 Apr 2026 Phase: Research foundation and
+literature review Define the research problem, aims, objectives and
+research questions; review CMOS switching, transient supply current,
+electromagnetic emissions, EM side-channel analysis and relevant
+measurement techniques; identify modelling assumptions and research
+gaps; establish the literature matrix and initial methodology.
+
+WEEK 3: 15 Apr 2026 – 21 Apr 2026 Phase: Research foundation and
+literature review Define the research problem, aims, objectives and
+research questions; review CMOS switching, transient supply current,
+electromagnetic emissions, EM side-channel analysis and relevant
+measurement techniques; identify modelling assumptions and research
+gaps; establish the literature matrix and initial methodology.
+
+WEEK 4: 22 Apr 2026 – 28 Apr 2026 Phase: Research foundation and
+literature review Define the research problem, aims, objectives and
+research questions; review CMOS switching, transient supply current,
+electromagnetic emissions, EM side-channel analysis and relevant
+measurement techniques; identify modelling assumptions and research
+gaps; establish the literature matrix and initial methodology.
+
+WEEK 5: 29 Apr 2026 – 05 May 2026 Phase: Research foundation and
+literature review Define the research problem, aims, objectives and
+research questions; review CMOS switching, transient supply current,
+electromagnetic emissions, EM side-channel analysis and relevant
+measurement techniques; identify modelling assumptions and research
+gaps; establish the literature matrix and initial methodology.
+
+WEEK 6: 06 May 2026 – 12 May 2026 Phase: Research foundation and
+literature review Define the research problem, aims, objectives and
+research questions; review CMOS switching, transient supply current,
+electromagnetic emissions, EM side-channel analysis and relevant
+measurement techniques; identify modelling assumptions and research
+gaps; establish the literature matrix and initial methodology.
+
+WEEK 7: 13 May 2026 – 19 May 2026 Phase: Research foundation and
+literature review Define the research problem, aims, objectives and
+research questions; review CMOS switching, transient supply current,
+electromagnetic emissions, EM side-channel analysis and relevant
+measurement techniques; identify modelling assumptions and research
+gaps; establish the literature matrix and initial methodology.
+
+WEEK 8: 20 May 2026 – 26 May 2026 Phase: Research foundation and
+literature review Define the research problem, aims, objectives and
+research questions; review CMOS switching, transient supply current,
+electromagnetic emissions, EM side-channel analysis and relevant
+measurement techniques; identify modelling assumptions and research
+gaps; establish the literature matrix and initial methodology.
+
+WEEK 9: 27 May 2026 – 02 Jun 2026 Phase: Research foundation and
+literature review Define the research problem, aims, objectives and
+research questions; review CMOS switching, transient supply current,
+electromagnetic emissions, EM side-channel analysis and relevant
+measurement techniques; identify modelling assumptions and research
+gaps; establish the literature matrix and initial methodology.
+Milestone: Research scope, objectives and literature-review foundation
+established.
+
+WEEK 10: 03 Jun 2026 – 09 Jun 2026 Phase: Mathematical electromagnetic
+modelling Develop the simplified forward/return-current representation;
+define the conductor-distance assumptions and geometric factor;
+formulate the net magnetic flux-density calculation; implement numerical
+differentiation and FFT analysis in Python; document assumptions,
+limitations and units.
+
+WEEK 11: 10 Jun 2026 – 16 Jun 2026 Phase: Mathematical electromagnetic
+modelling Develop the simplified forward/return-current representation;
+define the conductor-distance assumptions and geometric factor;
+formulate the net magnetic flux-density calculation; implement numerical
+differentiation and FFT analysis in Python; document assumptions,
+limitations and units.
+
+WEEK 12: 17 Jun 2026 – 23 Jun 2026 Phase: Mathematical electromagnetic
+modelling Develop the simplified forward/return-current representation;
+define the conductor-distance assumptions and geometric factor;
+formulate the net magnetic flux-density calculation; implement numerical
+differentiation and FFT analysis in Python; document assumptions,
+limitations and units.
+
+WEEK 13: 24 Jun 2026 – 30 Jun 2026 Phase: Mathematical electromagnetic
+modelling Develop the simplified forward/return-current representation;
+define the conductor-distance assumptions and geometric factor;
+formulate the net magnetic flux-density calculation; implement numerical
+differentiation and FFT analysis in Python; document assumptions,
+limitations and units. Milestone: Mathematical model and its assumptions
+documented.
+
+WEEK 14: 01 Jul 2026 – 07 Jul 2026 Phase: LTspice circuit simulation
+Build and test the four-inverter CMOS bank; configure the supply,
+transistor models, device dimensions, loads and switching inputs; verify
+the input-state sequence and Hamming-distance reference; run transient
+simulations; extract and check the supply current; repeat simulations
+for the selected MOSFET model configurations.
+
+WEEK 15: 08 Jul 2026 – 14 Jul 2026 Phase: LTspice circuit simulation
+Build and test the four-inverter CMOS bank; configure the supply,
+transistor models, device dimensions, loads and switching inputs; verify
+the input-state sequence and Hamming-distance reference; run transient
+simulations; extract and check the supply current; repeat simulations
+for the selected MOSFET model configurations.
+
+WEEK 16: 15 Jul 2026 – 21 Jul 2026 Phase: LTspice circuit simulation
+Build and test the four-inverter CMOS bank; configure the supply,
+transistor models, device dimensions, loads and switching inputs; verify
+the input-state sequence and Hamming-distance reference; run transient
+simulations; extract and check the supply current; repeat simulations
+for the selected MOSFET model configurations.
+
+WEEK 17: 22 Jul 2026 – 28 Jul 2026 Phase: LTspice circuit simulation
+Build and test the four-inverter CMOS bank; configure the supply,
+transistor models, device dimensions, loads and switching inputs; verify
+the input-state sequence and Hamming-distance reference; run transient
+simulations; extract and check the supply current; repeat simulations
+for the selected MOSFET model configurations.
+
+WEEK 18: 29 Jul 2026 – 04 Aug 2026 Phase: LTspice circuit simulation
+Build and test the four-inverter CMOS bank; configure the supply,
+transistor models, device dimensions, loads and switching inputs; verify
+the input-state sequence and Hamming-distance reference; run transient
+simulations; extract and check the supply current; repeat simulations
+for the selected MOSFET model configurations.
+
+WEEK 19: 05 Aug 2026 – 11 Aug 2026 Phase: LTspice circuit simulation
+Build and test the four-inverter CMOS bank; configure the supply,
+transistor models, device dimensions, loads and switching inputs; verify
+the input-state sequence and Hamming-distance reference; run transient
+simulations; extract and check the supply current; repeat simulations
+for the selected MOSFET model configurations.
+
+WEEK 20: 12 Aug 2026 – 18 Aug 2026 Phase: LTspice circuit simulation
+Build and test the four-inverter CMOS bank; configure the supply,
+transistor models, device dimensions, loads and switching inputs; verify
+the input-state sequence and Hamming-distance reference; run transient
+simulations; extract and check the supply current; repeat simulations
+for the selected MOSFET model configurations.
+
+WEEK 21: 19 Aug 2026 – 25 Aug 2026 Phase: LTspice circuit simulation
+Build and test the four-inverter CMOS bank; configure the supply,
+transistor models, device dimensions, loads and switching inputs; verify
+the input-state sequence and Hamming-distance reference; run transient
+simulations; extract and check the supply current; repeat simulations
+for the selected MOSFET model configurations.
+
+WEEK 22: 26 Aug 2026 – 01 Sep 2026 Phase: LTspice circuit simulation
+Build and test the four-inverter CMOS bank; configure the supply,
+transistor models, device dimensions, loads and switching inputs; verify
+the input-state sequence and Hamming-distance reference; run transient
+simulations; extract and check the supply current; repeat simulations
+for the selected MOSFET model configurations. Milestone: Required
+LTspice transient datasets generated and checked.
+
+WEEK 23: 02 Sep 2026 – 08 Sep 2026 Phase: Python integration and
+simulated signal analysis Import LTspice current waveforms; interpolate
+onto a uniform time grid; calculate the estimated magnetic flux density
+and its time derivative; perform RFFT and spectral normalisation;
+generate frequency plots; verify frequency-axis construction and
+document processing parameters.
+
+WEEK 24: 09 Sep 2026 – 15 Sep 2026 Phase: Python integration and
+simulated signal analysis Import LTspice current waveforms; interpolate
+onto a uniform time grid; calculate the estimated magnetic flux density
+and its time derivative; perform RFFT and spectral normalisation;
+generate frequency plots; verify frequency-axis construction and
+document processing parameters.
+
+WEEK 25: 16 Sep 2026 – 22 Sep 2026 Phase: Python integration and
+simulated signal analysis Import LTspice current waveforms; interpolate
+onto a uniform time grid; calculate the estimated magnetic flux density
+and its time derivative; perform RFFT and spectral normalisation;
+generate frequency plots; verify frequency-axis construction and
+document processing parameters.
+
+WEEK 26: 23 Sep 2026 – 29 Sep 2026 Phase: Python integration and
+simulated signal analysis Import LTspice current waveforms; interpolate
+onto a uniform time grid; calculate the estimated magnetic flux density
+and its time derivative; perform RFFT and spectral normalisation;
+generate frequency plots; verify frequency-axis construction and
+document processing parameters. Milestone: Python processing pipeline
+for simulated waveforms completed.
+
+WEEK 27: 30 Sep 2026 – 06 Oct 2026 Phase: Experimental setup and HackRF
+acquisition Assemble and inspect the SN74HC04N test circuit; apply the
+switching stimulus; configure HackRF One and the Ubuntu acquisition
+environment; conduct test captures; record centre frequency, sample rate
+and gain settings; acquire and organise five recordings; document
+experimental conditions and limitations.
+
+WEEK 28: 07 Oct 2026 – 13 Oct 2026 Phase: Experimental setup and HackRF
+acquisition Assemble and inspect the SN74HC04N test circuit; apply the
+switching stimulus; configure HackRF One and the Ubuntu acquisition
+environment; conduct test captures; record centre frequency, sample rate
+and gain settings; acquire and organise five recordings; document
+experimental conditions and limitations.
+
+WEEK 29: 14 Oct 2026 – 20 Oct 2026 Phase: Experimental setup and HackRF
+acquisition Assemble and inspect the SN74HC04N test circuit; apply the
+switching stimulus; configure HackRF One and the Ubuntu acquisition
+environment; conduct test captures; record centre frequency, sample rate
+and gain settings; acquire and organise five recordings; document
+experimental conditions and limitations.
+
+WEEK 30: 21 Oct 2026 – 27 Oct 2026 Phase: Experimental setup and HackRF
+acquisition Assemble and inspect the SN74HC04N test circuit; apply the
+switching stimulus; configure HackRF One and the Ubuntu acquisition
+environment; conduct test captures; record centre frequency, sample rate
+and gain settings; acquire and organise five recordings; document
+experimental conditions and limitations.
+
+WEEK 31: 28 Oct 2026 – 03 Nov 2026 Phase: Experimental setup and HackRF
+acquisition Assemble and inspect the SN74HC04N test circuit; apply the
+switching stimulus; configure HackRF One and the Ubuntu acquisition
+environment; conduct test captures; record centre frequency, sample rate
+and gain settings; acquire and organise five recordings; document
+experimental conditions and limitations. Milestone: Five experimental IQ
+recordings acquired and organised.
+
+WEEK 32: 04 Nov 2026 – 10 Nov 2026 Phase: IQ processing and spectral
+analysis Load and interpret raw interleaved IQ samples; calculate block
+power using 1,000-sample blocks; apply the
+mean-plus-three-standard-deviations activity threshold; identify active
+regions; estimate packet-associated and noise PSDs; apply the
+centre-frequency DC notch; calculate SNR curves; detect and rank
+spectral peaks; generate a representative STFT spectrogram.
+
+WEEK 33: 11 Nov 2026 – 17 Nov 2026 Phase: IQ processing and spectral
+analysis Load and interpret raw interleaved IQ samples; calculate block
+power using 1,000-sample blocks; apply the
+mean-plus-three-standard-deviations activity threshold; identify active
+regions; estimate packet-associated and noise PSDs; apply the
+centre-frequency DC notch; calculate SNR curves; detect and rank
+spectral peaks; generate a representative STFT spectrogram.
+
+WEEK 34: 18 Nov 2026 – 24 Nov 2026 Phase: IQ processing and spectral
+analysis Load and interpret raw interleaved IQ samples; calculate block
+power using 1,000-sample blocks; apply the
+mean-plus-three-standard-deviations activity threshold; identify active
+regions; estimate packet-associated and noise PSDs; apply the
+centre-frequency DC notch; calculate SNR curves; detect and rank
+spectral peaks; generate a representative STFT spectrogram.
+
+WEEK 35: 25 Nov 2026 – 01 Dec 2026 Phase: IQ processing and spectral
+analysis Load and interpret raw interleaved IQ samples; calculate block
+power using 1,000-sample blocks; apply the
+mean-plus-three-standard-deviations activity threshold; identify active
+regions; estimate packet-associated and noise PSDs; apply the
+centre-frequency DC notch; calculate SNR curves; detect and rank
+spectral peaks; generate a representative STFT spectrogram. Milestone:
+IQ processing, PSD/SNR analysis, peak detection and spectrogram
+generation completed.
+
+WEEK 36: 02 Dec 2026 – 08 Dec 2026 Phase: Evaluation and comparison
+Compare simulated and experimentally observed frequency characteristics
+only within the overlapping measurement bandwidth; examine peak
+locations, relative spectral prominence and spectral distributions;
+assess repeatability across recordings; investigate discrepancies and
+possible measurement influences; prepare comparison figures and discuss
+limitations without claiming absolute field-amplitude calibration.
+
+WEEK 37: 09 Dec 2026 – 15 Dec 2026 Phase: Evaluation and comparison
+Compare simulated and experimentally observed frequency characteristics
+only within the overlapping measurement bandwidth; examine peak
+locations, relative spectral prominence and spectral distributions;
+assess repeatability across recordings; investigate discrepancies and
+possible measurement influences; prepare comparison figures and discuss
+limitations without claiming absolute field-amplitude calibration.
+
+WEEK 38: 16 Dec 2026 – 22 Dec 2026 Phase: Evaluation and comparison
+Compare simulated and experimentally observed frequency characteristics
+only within the overlapping measurement bandwidth; examine peak
+locations, relative spectral prominence and spectral distributions;
+assess repeatability across recordings; investigate discrepancies and
+possible measurement influences; prepare comparison figures and discuss
+limitations without claiming absolute field-amplitude calibration.
+
+WEEK 39: 23 Dec 2026 – 29 Dec 2026 Phase: Evaluation and comparison
+Compare simulated and experimentally observed frequency characteristics
+only within the overlapping measurement bandwidth; examine peak
+locations, relative spectral prominence and spectral distributions;
+assess repeatability across recordings; investigate discrepancies and
+possible measurement influences; prepare comparison figures and discuss
+limitations without claiming absolute field-amplitude calibration.
+
+WEEK 40: 30 Dec 2026 – 05 Jan 2027 Phase: Evaluation and comparison
+Compare simulated and experimentally observed frequency characteristics
+only within the overlapping measurement bandwidth; examine peak
+locations, relative spectral prominence and spectral distributions;
+assess repeatability across recordings; investigate discrepancies and
+possible measurement influences; prepare comparison figures and discuss
+limitations without claiming absolute field-amplitude calibration.
+Milestone: Simulation-to-experiment frequency-domain evaluation
+completed.
+
+WEEK 41: 06 Jan 2027 – 12 Jan 2027 Phase: Dissertation writing Prepare
+the introduction and problem statement; complete the literature review;
+write the methodology, assumptions, simulation design, experimental
+setup, algorithms and implementation details; present results; discuss
+findings, limitations and implications; complete references and
+figure/table captions.
+
+WEEK 42: 13 Jan 2027 – 19 Jan 2027 Phase: Dissertation writing Prepare
+the introduction and problem statement; complete the literature review;
+write the methodology, assumptions, simulation design, experimental
+setup, algorithms and implementation details; present results; discuss
+findings, limitations and implications; complete references and
+figure/table captions.
+
+WEEK 43: 20 Jan 2027 – 26 Jan 2027 Phase: Dissertation writing Prepare
+the introduction and problem statement; complete the literature review;
+write the methodology, assumptions, simulation design, experimental
+setup, algorithms and implementation details; present results; discuss
+findings, limitations and implications; complete references and
+figure/table captions.
+
+WEEK 44: 27 Jan 2027 – 02 Feb 2027 Phase: Dissertation writing Prepare
+the introduction and problem statement; complete the literature review;
+write the methodology, assumptions, simulation design, experimental
+setup, algorithms and implementation details; present results; discuss
+findings, limitations and implications; complete references and
+figure/table captions. Milestone: Full dissertation draft completed.
+
+WEEK 45: 03 Feb 2027 – 09 Feb 2027 Phase: Final review and submission
+preparation Review technical consistency, equations, units, terminology
+and citations; check figures and tables; incorporate supervisor feedback
+where available; proofread and format the dissertation; verify
+submission requirements and prepare the final submission package.
+
+WEEK 46: 10 Feb 2027 – 15 Feb 2027 Phase: Final review and submission
+preparation Review technical consistency, equations, units, terminology
+and citations; check figures and tables; incorporate supervisor feedback
+where available; proofread and format the dissertation; verify
+submission requirements and prepare the final submission package.
+Milestone: Final dissertation checked and prepared for submission.
+
+PHASE SUMMARY Weeks 1–9 (01 Apr 2026 – 02 Jun 2026): Research foundation
+and literature review Weeks 10–13 (03 Jun 2026 – 30 Jun 2026):
+Mathematical electromagnetic modelling Weeks 14–22 (01 Jul 2026 – 01 Sep
+2026): LTspice circuit simulation Weeks 23–26 (02 Sep 2026 – 29 Sep
+2026): Python integration and simulated signal analysis Weeks 27–31 (30
+Sep 2026 – 03 Nov 2026): Experimental setup and HackRF acquisition Weeks
+32–35 (04 Nov 2026 – 01 Dec 2026): IQ processing and spectral analysis
+Weeks 36–40 (02 Dec 2026 – 05 Jan 2027): Evaluation and comparison Weeks
+41–44 (06 Jan 2027 – 02 Feb 2027): Dissertation writing Weeks 45–46 (03
+Feb 2027 – 15 Feb 2027): Final review and submission preparation
+
+IMPORTANT SCOPE AND EVALUATION NOTES - The LTspice four-inverter bank
+and the physical SN74HC04N experiment are related test arrangements, not
+exact replicas. - Hamming distance is treated as a switching-activity
+indicator, not as a direct measurement of current or electromagnetic
+leakage. - The simplified two-conductor model uses stated geometric
+assumptions; it is not a full 3D electromagnetic solver. - The
+derivative dB/dt is not itself an electric-field measurement. - HackRF
+IQ amplitudes are not calibrated to absolute magnetic flux density. The
+comparison therefore focuses on frequency-domain characteristics and
+relative spectral features. - For captures made with a 40 MHz centre
+frequency and 20 MS/s complex sampling, the nominal RF observation band
+is approximately 30–50 MHz. Comparisons should be restricted to the
+frequency range actually observed by the recordings.
+
+END OF TIMELINE
