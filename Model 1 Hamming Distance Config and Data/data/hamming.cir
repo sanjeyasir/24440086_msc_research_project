@@ -1,0 +1,60 @@
+
+* ============================================================
+* 4-BIT CMOS INVERTER BANK - HD DEMONSTRATION
+* Illustrative MOSFET models, NOT extracted from SN74HC04N
+* Supply: 5 V
+* Each input state lasts approximately 1 us
+* ============================================================
+
+VDD VDD 0 DC 5
+
+* -------- Four input bits: b3 b2 b1 b0 --------
+* State sequence:
+* 0000 -> 0101 -> 0111 -> 0011 -> 1111 -> 0000
+* Transitions occur 1 ns after each state boundary.
+
+VB0 B0 0 PWL(0 0 1u 0 1.001u 5 5u 5 5.001u 0 6u 0)
+
+VB1 B1 0 PWL(0 0 2u 0 2.001u 5 5u 5 5.001u 0 6u 0)
+
+VB2 B2 0 PWL(0 0 1u 0 1.001u 5 3u 5 3.001u 0 4u 0 4.001u 5 5u 5 5.001u 0 6u 0)
+
+VB3 B3 0 PWL(0 0 4u 0 4.001u 5 5u 5 5.001u 0 6u 0)
+
+* -------- Simplified illustrative transistor models --------
+
+.model PMOD PMOS (LEVEL=1 VTO=-1 KP=100u)
+.model NMOD NMOS (LEVEL=1 VTO=1 KP=200u)
+
+* -------- Inverter 0 --------
+* MOS netlist order: Drain Gate Source Bulk Model
+MP0 Y0 B0 VDD VDD PMOD L=1u W=5u AD=5p AS=5p PD=4u PS=4u M=1
+MN0 Y0 B0 0   0   NMOD L=1u W=2.5u AD=2.5p AS=2.5p PD=3u PS=3u M=1
+
+* -------- Inverter 1 --------
+MP1 Y1 B1 VDD VDD PMOD L=1u W=5u AD=5p AS=5p PD=4u PS=4u M=1
+MN1 Y1 B1 0   0   NMOD L=1u W=2.5u AD=2.5p AS=2.5p PD=3u PS=3u M=1
+
+* -------- Inverter 2 --------
+MP2 Y2 B2 VDD VDD PMOD L=1u W=5u AD=5p AS=5p PD=4u PS=4u M=1
+MN2 Y2 B2 0   0   NMOD L=1u W=2.5u AD=2.5p AS=2.5p PD=3u PS=3u M=1
+
+* -------- Inverter 3 --------
+MP3 Y3 B3 VDD VDD PMOD L=1u W=5u AD=5p AS=5p PD=4u PS=4u M=1
+MN3 Y3 B3 0   0   NMOD L=1u W=2.5u AD=2.5p AS=2.5p PD=3u PS=3u M=1
+
+* -------- Output loading --------
+C0 Y0 0 5p
+C1 Y1 0 5p
+C2 Y2 0 5p
+C3 Y3 0 5p
+
+* -------- HD reference waveform --------
+* Voltage is numerically equal to HD in volts.
+* This is a manually encoded reference for the states above.
+VHD HD 0 PWL(0 0 1u 0 1.001u 2 2u 2 2.001u 1 3u 1 3.001u 1 4u 1 4.001u 2 5u 2 5.001u 4 6u 4)
+
+* -------- Transient simulation --------
+.tran 0 6u 0 1n
+
+.end

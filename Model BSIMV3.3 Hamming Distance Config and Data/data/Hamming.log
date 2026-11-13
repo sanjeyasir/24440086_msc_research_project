@@ -1,0 +1,29 @@
+LTspice 26.1.1 for Windows
+Circuit: C:\Users\Sanjey.Asirvatham\Downloads\MSC_Data_LTSPICE_CMOS\Model BSIMV3.3 Hamming Distance Config and Data\Hamming.cir
+Start Time: Tue Nov  3 14:22:19 2026
+C:\Users\Sanjey.Asirvatham\Downloads\MSC_Data_LTSPICE_CMOS\Model BSIMV3.3 Hamming Distance Config and Data\Hamming.cir(28): Ignoring unknown model parameter. This may or may not be a problem.
++ L=1u
+  ^^^^
+C:\Users\Sanjey.Asirvatham\Downloads\MSC_Data_LTSPICE_CMOS\Model BSIMV3.3 Hamming Distance Config and Data\Hamming.cir(29): Ignoring unknown model parameter. This may or may not be a problem.
++ W=2.5u
+  ^^^^^^
+C:\Users\Sanjey.Asirvatham\Downloads\MSC_Data_LTSPICE_CMOS\Model BSIMV3.3 Hamming Distance Config and Data\Hamming.cir(41): Ignoring unknown model parameter. This may or may not be a problem.
++ L=1u
+  ^^^^
+C:\Users\Sanjey.Asirvatham\Downloads\MSC_Data_LTSPICE_CMOS\Model BSIMV3.3 Hamming Distance Config and Data\Hamming.cir(42): Ignoring unknown model parameter. This may or may not be a problem.
++ W=5u
+  ^^^^
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+Warning: Pd = 4e-06 is less than W.
+Warning: Ps = 4e-06 is less than W.
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.124 seconds.
+Total iterations: 12330
+
+Files loaded:
+C:\Users\Sanjey.Asirvatham\Downloads\MSC_Data_LTSPICE_CMOS\Model BSIMV3.3 Hamming Distance Config and Data\Hamming.cir
+

@@ -1,0 +1,33 @@
+
+const int pins[4] = {5, 4, 3, 2};  // D5 D4 D3 D2
+
+const byte patterns[] = {
+  0b0000,
+  0b0101,
+  0b0111,
+  0b0011,
+  0b1111,
+  0b0000
+};
+
+const int numPatterns = sizeof(patterns) / sizeof(patterns[0]);
+const unsigned long stateDurationMs = 100;
+
+void setup() {
+  for (int i = 0; i < 4; i++) {
+    pinMode(pins[i], OUTPUT);
+    digitalWrite(pins[i], LOW);
+  }
+}
+
+void loop() {
+  for (int p = 0; p < numPatterns; p++) {
+    byte state = patterns[p];
+
+    for (int i = 0; i < 4; i++) {
+      digitalWrite(pins[i], (state >> (3 - i)) & 1);
+    }
+
+    delay(stateDurationMs);
+  }
+}
